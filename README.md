@@ -1,4 +1,6 @@
 # Bringg
+## Run the server (after `npm install`)
+`npm start`
 ## Create Customer
    ### EndPoint (POST): 
    `localhost:3000/customer`
@@ -11,6 +13,7 @@
     }`
     
  ## Create Order
+ if customer does not exist, new one will be created.
    ### EndPoint (POST): 
    `localhost:3000/order`
    ### Params:
